@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f2743c6d4c59a54f9057ca972f635c3, type: 3}
+  m_Name: so_SceneRouteList
+  m_EditorClassIdentifier: 
+  sceneRouteList:
+  - fromSceneName: 3
+    toSceneName: 5
+    scenePathList:
+    - sceneName: 3
+      fromGridCell:
+        x: 999999
+        y: 999999
+      toGridCell:
+        x: -3
+        y: -17
+    - sceneName: 5
+      fromGridCell:
+        x: 0
+        y: -3
+      toGridCell:
+        x: 999999
+        y: 999999
+  - fromSceneName: 5
+    toSceneName: 3
+    scenePathList:
+    - sceneName: 5
+      fromGridCell:
+        x: 999999
+        y: 999999
+      toGridCell:
+        x: 0
+        y: -3
+    - sceneName: 3
+      fromGridCell:
+        x: -3
+        y: -17
+      toGridCell:
+        x: 999999
+        y: 999999
+  - fromSceneName: 3
+    toSceneName: 6
+    scenePathList:
+    - sceneName: 3
+      fromGridCell:
+        x: 999999
+        y: 999999
+      toGridCell:
+        x: -3
+        y: -17
+    - sceneName: 5
+      fromGridCell:
+        x: 0
+        y: -3
+      toGridCell:
+        x: -4
+        y: 2
+    - sceneName: 6
+      fromGridCell:
+        x: 4
+        y: 2
+      toGridCell:
+        x: 999999
+        y: 999999
+  - fromSceneName: 6
+    toSceneName: 3
+    scenePathList:
+    - sceneName: 6
+      fromGridCell:
+        x: 999999
+        y: 999999
+      toGridCell:
+        x: 4
+        y: 2
+    - sceneName: 5
+      fromGridCell:
+        x: -4
+        y: 2
+      toGridCell:
+        x: 0
+        y: -3
+    - sceneName: 3
+      fromGridCell:
+        x: -3
+        y: -17
+      toGridCell:
+        x: 999999
+        y: 999999
+  - fromSceneName: 5
+    toSceneName: 6
+    scenePathList:
+    - sceneName: 5
+      fromGridCell:
+        x: 999999
+        y: 999999
+      toGridCell:
+        x: -4
+        y: 2
+    - sceneName: 6
+      fromGridCell:
+        x: 4
+        y: 2
+      toGridCell:
+        x: 999999
+        y: 999999
+  - fromSceneName: 6
+    toSceneName: 5
+    scenePathList:
+    - sceneName: 6
+      fromGridCell:
+        x: 999999
+        y: 999999
+      toGridCell:
+        x: 4
+        y: 2
+    - sceneName: 5
+      fromGridCell:
+        x: -4
+        y: 2
+      toGridCell:
+        x: 999999
+        y: 999999

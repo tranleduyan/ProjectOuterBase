@@ -1,0 +1,1625 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c830304f91b745145b22f7d01db4bf5a, type: 3}
+  m_Name: so_ItemList
+  m_EditorClassIdentifier: 
+  itemDetails:
+  - itemCode: 1000
+    itemType: 1
+    itemDescription: Eolie Seed
+    itemSprite: {fileID: -1846024776, guid: 17e30b9f3d5dfb042ba2c39b6ef7af8a, type: 3}
+    itemLongDescription: One day the seed will grow into a large Eolie tree.
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1001
+    itemType: 1
+    itemDescription: Vilia Seed
+    itemSprite: {fileID: 1809298251, guid: 17e30b9f3d5dfb042ba2c39b6ef7af8a, type: 3}
+    itemLongDescription: Plant it and it will turn into a small Vilia tree.
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1002
+    itemType: 1
+    itemDescription: Obion Seed
+    itemSprite: {fileID: 1108584444, guid: 17e30b9f3d5dfb042ba2c39b6ef7af8a, type: 3}
+    itemLongDescription: An orange seed that grow into an orange Obiony tree.
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1003
+    itemType: 1
+    itemDescription: Silles Seed
+    itemSprite: {fileID: 344156368, guid: 17e30b9f3d5dfb042ba2c39b6ef7af8a, type: 3}
+    itemLongDescription: A Silles tree will grow with it if care properly.
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1004
+    itemType: 1
+    itemDescription: Gossie Seed
+    itemSprite: {fileID: -1529889590, guid: 17e30b9f3d5dfb042ba2c39b6ef7af8a, type: 3}
+    itemLongDescription: A seed to grow the most alike Earth's tree!
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1005
+    itemType: 0
+    itemDescription: Solar Seeds
+    itemSprite: {fileID: -70702523, guid: 1bad49f3d4d84e24996e46f477063715, type: 3}
+    itemLongDescription: Hot like the sun, a Solar bush will grow!
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1006
+    itemType: 0
+    itemDescription: Bush Seeds
+    itemSprite: {fileID: -1988543913, guid: 1bad49f3d4d84e24996e46f477063715, type: 3}
+    itemLongDescription: A normal Earth looking bush will grow from it.
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1007
+    itemType: 0
+    itemDescription: Vile Seeds
+    itemSprite: {fileID: -190518337, guid: 1bad49f3d4d84e24996e46f477063715, type: 3}
+    itemLongDescription: It can grow into a Vile bush!
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1008
+    itemType: 0
+    itemDescription: Brow Seeds
+    itemSprite: {fileID: 1259691546, guid: 1bad49f3d4d84e24996e46f477063715, type: 3}
+    itemLongDescription: Plant it to grow a Brow bush, should never be eaten!
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1009
+    itemType: 0
+    itemDescription: Muskron Seeds
+    itemSprite: {fileID: 1267937923, guid: 1bad49f3d4d84e24996e46f477063715, type: 3}
+    itemLongDescription: 'Seeds to grow a Muskron bush. '
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1010
+    itemType: 0
+    itemDescription: Khakan Seeds
+    itemSprite: {fileID: -886882548, guid: 1bad49f3d4d84e24996e46f477063715, type: 3}
+    itemLongDescription: Seeds that may found in desert area. A Khakan bush will
+      be grown!
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1011
+    itemType: 0
+    itemDescription: Osian Seeds
+    itemSprite: {fileID: -1218883516, guid: 1bad49f3d4d84e24996e46f477063715, type: 3}
+    itemLongDescription: 'Plant to grow into an Osian bush that can only be found
+      in the ocean depth. '
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1012
+    itemType: 0
+    itemDescription: Lilith Seeds
+    itemSprite: {fileID: -534633066, guid: 1bad49f3d4d84e24996e46f477063715, type: 3}
+    itemLongDescription: Take care of it and one day, it will grow into a nice looking
+      Lilith bush.
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1013
+    itemType: 0
+    itemDescription: Oatis Seeds
+    itemSprite: {fileID: 1858691540, guid: 1bad49f3d4d84e24996e46f477063715, type: 3}
+    itemLongDescription: It will grow to the planet's unique bush, Oatis bush.
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1014
+    itemType: 2
+    itemDescription: Solary Fruit
+    itemSprite: {fileID: -2113844114, guid: 83c233eedcec37e4f89e0167ba6bc049, type: 3}
+    itemLongDescription: A juicy fruit, gives a lot of water despite the name!
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1015
+    itemType: 2
+    itemDescription: Bushy Fruit
+    itemSprite: {fileID: -422552987, guid: 83c233eedcec37e4f89e0167ba6bc049, type: 3}
+    itemLongDescription: Not giving anything much, just a decent fruit like the one
+      on Earth.
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1016
+    itemType: 2
+    itemDescription: Viley Fruit
+    itemSprite: {fileID: -1348949877, guid: 83c233eedcec37e4f89e0167ba6bc049, type: 3}
+    itemLongDescription: A tasty fruit that can only be harvested from Vile bush!
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1017
+    itemType: 2
+    itemDescription: Browy Fruit
+    itemSprite: {fileID: -225084496, guid: 83c233eedcec37e4f89e0167ba6bc049, type: 3}
+    itemLongDescription: If anyone could taste this, it will be popular. It is addictive!
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1018
+    itemType: 2
+    itemDescription: Mushkrony Fruit
+    itemSprite: {fileID: 1264886320, guid: 83c233eedcec37e4f89e0167ba6bc049, type: 3}
+    itemLongDescription: 'A watery and sweet fruit. '
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1019
+    itemType: 2
+    itemDescription: Khakany Fruit
+    itemSprite: {fileID: -1832910755, guid: 83c233eedcec37e4f89e0167ba6bc049, type: 3}
+    itemLongDescription: The best fruit found in the desert. Help the thirst!
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1020
+    itemType: 2
+    itemDescription: Osiany Fruit
+    itemSprite: {fileID: 205281765, guid: 83c233eedcec37e4f89e0167ba6bc049, type: 3}
+    itemLongDescription: A non-taste fruit but can regenerate the oxygen.
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1021
+    itemType: 2
+    itemDescription: Lility Fruit
+    itemSprite: {fileID: -2030556703, guid: 83c233eedcec37e4f89e0167ba6bc049, type: 3}
+    itemLongDescription: A pinky looking fruit, it is for eaten!
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1022
+    itemType: 2
+    itemDescription: Oatisy Fruit
+    itemSprite: {fileID: -1760927042, guid: 83c233eedcec37e4f89e0167ba6bc049, type: 3}
+    itemLongDescription: A sour fruit that gives you more strength to walk around
+      the planet faster.
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1023
+    itemType: 3
+    itemDescription: A Water Bottle
+    itemSprite: {fileID: -688951396, guid: bba122a7d6656db40bf2edddad246434, type: 3}
+    itemLongDescription: A water bottle to help your thirst, and also water the plants!
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1024
+    itemType: 4
+    itemDescription: A Hoe
+    itemSprite: {fileID: -323538615, guid: bba122a7d6656db40bf2edddad246434, type: 3}
+    itemLongDescription: A strong hoe that break up the soil, prepare for planting.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1025
+    itemType: 5
+    itemDescription: An Axe
+    itemSprite: {fileID: 345354259, guid: bba122a7d6656db40bf2edddad246434, type: 3}
+    itemLongDescription: An sharp axe that is great for chopping down the trees.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1026
+    itemType: 2
+    itemDescription: Eolie Wood
+    itemSprite: {fileID: 974326496, guid: bce989f6a1c5a6f4097e00e51cdc173e, type: 3}
+    itemLongDescription: It is useful for crafting things, or used as fuel.
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1027
+    itemType: 2
+    itemDescription: Vilia Wood
+    itemSprite: {fileID: -431675543, guid: bce989f6a1c5a6f4097e00e51cdc173e, type: 3}
+    itemLongDescription: A purple looking wood that can be used for making things.
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1028
+    itemType: 2
+    itemDescription: Obion Wood
+    itemSprite: {fileID: -1576083763, guid: bce989f6a1c5a6f4097e00e51cdc173e, type: 3}
+    itemLongDescription: A wood falls from an Obiony tree. Very expensive.
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1029
+    itemType: 2
+    itemDescription: Silles Wood
+    itemSprite: {fileID: 1691144349, guid: bce989f6a1c5a6f4097e00e51cdc173e, type: 3}
+    itemLongDescription: There are many things can do with it but it is hard to find.
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1030
+    itemType: 2
+    itemDescription: Gossie Wood
+    itemSprite: {fileID: -574613210, guid: bce989f6a1c5a6f4097e00e51cdc173e, type: 3}
+    itemLongDescription: What the woods on Earth can do, it does the same!
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1031
+    itemType: 0
+    itemDescription: Tree Stump
+    itemSprite: {fileID: 21300000, guid: 7f95461c363ddbc4194d83aa586056c6, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1032
+    itemType: 8
+    itemDescription: A Basket
+    itemSprite: {fileID: 21300000, guid: f118cef505309af47ad1059b5e658ae4, type: 3}
+    itemLongDescription: A basket for harvesting fruits.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1033
+    itemType: 6
+    itemDescription: A Pickaxe
+    itemSprite: {fileID: 1119993171, guid: bba122a7d6656db40bf2edddad246434, type: 3}
+    itemLongDescription: A powerful pickaxe for breaking rocks and hard things.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1034
+    itemType: 0
+    itemDescription: Gora Rock
+    itemSprite: {fileID: -316575773, guid: 7ccc094c923399344bebca112005aa03, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1035
+    itemType: 0
+    itemDescription: Berus Rock
+    itemSprite: {fileID: -775446232, guid: 7ccc094c923399344bebca112005aa03, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1036
+    itemType: 0
+    itemDescription: Leon Rock
+    itemSprite: {fileID: -1785151316, guid: 7ccc094c923399344bebca112005aa03, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1037
+    itemType: 0
+    itemDescription: Lars Rock
+    itemSprite: {fileID: 628947631, guid: 7ccc094c923399344bebca112005aa03, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1038
+    itemType: 2
+    itemDescription: Gora Stone
+    itemSprite: {fileID: 1664413128, guid: c67c6b2aa37f510469eece8bbd31018d, type: 3}
+    itemLongDescription: A stone from Gora rocks, can be used in craftings.
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1039
+    itemType: 2
+    itemDescription: Berus Stone
+    itemSprite: {fileID: -1681496637, guid: c67c6b2aa37f510469eece8bbd31018d, type: 3}
+    itemLongDescription: A useful materials in buildings and craftings. Can be obtained
+      by breaking Berus rocks.
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1040
+    itemType: 2
+    itemDescription: Leon Stone
+    itemSprite: {fileID: -579935087, guid: c67c6b2aa37f510469eece8bbd31018d, type: 3}
+    itemLongDescription: A blueish green stone that will be found when breaking the
+      Leon rocks.
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1041
+    itemType: 2
+    itemDescription: Lars Stone
+    itemSprite: {fileID: -616578389, guid: c67c6b2aa37f510469eece8bbd31018d, type: 3}
+    itemLongDescription: A hard hot stone. Can be used in many buildings recipes.
+      Only obtained when breaking the Lars stones.
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1042
+    itemType: 7
+    itemDescription: A Scythe
+    itemSprite: {fileID: -561195330, guid: bba122a7d6656db40bf2edddad246434, type: 3}
+    itemLongDescription: A scythe to cut the grasses.
+    itemUseGridRadius: 0
+    itemUseRadius: 1
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1043
+    itemType: 9
+    itemDescription: Grass1
+    itemSprite: {fileID: 955109555, guid: d6626e00090a11a48bf10812537a6f59, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1044
+    itemType: 9
+    itemDescription: Grass2
+    itemSprite: {fileID: -2127125958, guid: d6626e00090a11a48bf10812537a6f59, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1045
+    itemType: 9
+    itemDescription: Grass3
+    itemSprite: {fileID: -1058587380, guid: d6626e00090a11a48bf10812537a6f59, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1046
+    itemType: 9
+    itemDescription: Grass4
+    itemSprite: {fileID: 173141132, guid: d6626e00090a11a48bf10812537a6f59, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1047
+    itemType: 10
+    itemDescription: White Stool
+    itemSprite: {fileID: 21300000, guid: 67ebf6e66d619ad4994a4ab43da961b1, type: 3}
+    itemLongDescription: A sturdy white stool, sitting too long may affect the bones.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1048
+    itemType: 0
+    itemDescription: Eolia Tree Stump
+    itemSprite: {fileID: -1381389883, guid: f392a60bea7c99b489ec40eb5f32d130, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1049
+    itemType: 0
+    itemDescription: Vilia Tree Stump
+    itemSprite: {fileID: 1122216752, guid: a27f055208f117c4095538920c0cb4f0, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1050
+    itemType: 0
+    itemDescription: Obiony Tree Stump
+    itemSprite: {fileID: -1534855137, guid: 89844815d214db84880d1e7bf2da4c15, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1051
+    itemType: 0
+    itemDescription: Silles Tree Stump
+    itemSprite: {fileID: -1909797458, guid: 634f7be03a20e114f943b35f45e782e3, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1052
+    itemType: 0
+    itemDescription: Gossia Tree Stump
+    itemSprite: {fileID: 1296093700, guid: 8e2c0295f7d565d48a28c855eee49f82, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1053
+    itemType: 10
+    itemDescription: White Table
+    itemSprite: {fileID: 21300000, guid: ab07e080098d2d940b7975d0135f35bc, type: 3}
+    itemLongDescription: A big white table that can be handful.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1054
+    itemType: 10
+    itemDescription: Purple Blue Bed
+    itemSprite: {fileID: 21300000, guid: 0087170c10d94524bb052eb2ce9f50c7, type: 3}
+    itemLongDescription: A purple blue bed that you can rest after a long productive
+      day.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1055
+    itemType: 10
+    itemDescription: Small Light Blue Sofa
+    itemSprite: {fileID: 21300000, guid: 90a1af307f062bd47a3d784b642b5910, type: 3}
+    itemLongDescription: A small light blue sofa, have a sit!
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1056
+    itemType: 10
+    itemDescription: Small Black Sofa
+    itemSprite: {fileID: 21300000, guid: 00c7a4eac0165b14c9bcda4ea721d8bf, type: 3}
+    itemLongDescription: A small black sofa will make up a mystery atmosphere.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1057
+    itemType: 10
+    itemDescription: Small Blue Sofa
+    itemSprite: {fileID: 21300000, guid: fa78596a53c0d994b96636ba4ff6c08e, type: 3}
+    itemLongDescription: A small blue sofa, must be fluffy and comfortable.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1058
+    itemType: 10
+    itemDescription: Small Brown Sofa
+    itemSprite: {fileID: 21300000, guid: ac6a7aeefa0ada141865729c7224f371, type: 3}
+    itemLongDescription: A small brown sofa is presented for classic and strength.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1059
+    itemType: 10
+    itemDescription: Small Green Sofa
+    itemSprite: {fileID: 21300000, guid: 8f3a733bf36c52c4891bd0b116af8d46, type: 3}
+    itemLongDescription: A small green cushie with the color of nature.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1060
+    itemType: 10
+    itemDescription: Small Leather Sofa
+    itemSprite: {fileID: 21300000, guid: 6af5161f7b91e6e42bfb053d2774f423, type: 3}
+    itemLongDescription: A small sofa with leather. It is soft and luxury.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1061
+    itemType: 10
+    itemDescription: Small Light Purple Sofa
+    itemSprite: {fileID: 21300000, guid: d30896ecd1553ce4fbb4ef92e7d43109, type: 3}
+    itemLongDescription: A small light purple cushie, purple is the color of ambition,
+      yet royalty.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1062
+    itemType: 10
+    itemDescription: Small Pink Sofa
+    itemSprite: {fileID: 21300000, guid: be174bffea4d67846976f535071d10ff, type: 3}
+    itemLongDescription: A small sofa with a cute pink color.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1063
+    itemType: 10
+    itemDescription: Small Red Sofa
+    itemSprite: {fileID: 21300000, guid: 87f26f35acbd55e479e4c8ba75268e98, type: 3}
+    itemLongDescription: A small red sofa brings the heat, making the place stays
+      cozy.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1064
+    itemType: 10
+    itemDescription: Small White Sofa
+    itemSprite: {fileID: 21300000, guid: 9c439d528f2adf240be2ece5e087921e, type: 3}
+    itemLongDescription: A classic laboratory color sofa. Always be used by the lab
+      people.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1065
+    itemType: 10
+    itemDescription: Small Woodie Sofa
+    itemSprite: {fileID: 21300000, guid: 8a54e1d35b25094458aa811c0e049085, type: 3}
+    itemLongDescription: Despite the name and with technology, it is a soft and squishy
+      sofa.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1066
+    itemType: 10
+    itemDescription: Small Yellow Sofa
+    itemSprite: {fileID: 21300000, guid: ff894ceb36dd12f4db594741ffa1d2f4, type: 3}
+    itemLongDescription: A class yellow sofa that can only fit one person.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1067
+    itemType: 10
+    itemDescription: Black Stool
+    itemSprite: {fileID: 21300000, guid: 5a646e56c7699aa43a5d53ffd292a831, type: 3}
+    itemLongDescription: A black mysterious looking stool.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1068
+    itemType: 10
+    itemDescription: Blue Stool
+    itemSprite: {fileID: 21300000, guid: 9d8ff2db720d1e449839469f88d1856d, type: 3}
+    itemLongDescription: A stool with the color of the ocean.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1069
+    itemType: 10
+    itemDescription: Brown Stool
+    itemSprite: {fileID: 21300000, guid: da7a2a4e66f32434494d14c3e967e3ee, type: 3}
+    itemLongDescription: A brown stool that can be sit on.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1070
+    itemType: 10
+    itemDescription: Green Stool
+    itemSprite: {fileID: 21300000, guid: 1b0745445cd5b2e4c98a67488da97810, type: 3}
+    itemLongDescription: A green stool - the color of leaves.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1071
+    itemType: 10
+    itemDescription: Leather Stool
+    itemSprite: {fileID: 21300000, guid: 301df60cab9298a4abe9cde914596070, type: 3}
+    itemLongDescription: A stool made from leather, soft but also hard to break.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1072
+    itemType: 10
+    itemDescription: Light Blue Stool
+    itemSprite: {fileID: 21300000, guid: 2a7165d63a741e24ea9566fd49d5196b, type: 3}
+    itemLongDescription: A stool to sit on, it is colored in light blue.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1073
+    itemType: 10
+    itemDescription: Light Purple Stool
+    itemSprite: {fileID: 21300000, guid: 24055050dba1ba641b946e1c5d630ed6, type: 3}
+    itemLongDescription: A stool that brings the atmosphere of outer space - a light
+      purple color.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1074
+    itemType: 10
+    itemDescription: Pink Stool
+    itemSprite: {fileID: 21300000, guid: 8b4da6255b63da54eb87fb2a414df2cd, type: 3}
+    itemLongDescription: A pinky stool that make its surroundings look cute.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1075
+    itemType: 10
+    itemDescription: Red Stool
+    itemSprite: {fileID: 21300000, guid: 643ce667fb406fc47be815a85b3340d6, type: 3}
+    itemLongDescription: Cozy and luxury stool in red.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1076
+    itemType: 10
+    itemDescription: Woodie Stool
+    itemSprite: {fileID: 21300000, guid: fdfb50877ce9aac47a47ce7140c303a4, type: 3}
+    itemLongDescription: A stool made from wood. It is strong and last long.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1077
+    itemType: 10
+    itemDescription: Yellow Stool
+    itemSprite: {fileID: 21300000, guid: fddba365eecdf664085649d6beb240a9, type: 3}
+    itemLongDescription: A sunshine color stool brings the bright to where it stays.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1078
+    itemType: 10
+    itemDescription: Black Table
+    itemSprite: {fileID: 21300000, guid: 62c04f727707c6345823e566e788a9f6, type: 3}
+    itemLongDescription: A big table with black color to make up the luxury space.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1079
+    itemType: 10
+    itemDescription: Blue Table
+    itemSprite: {fileID: 21300000, guid: 3bfff6eedd502524ea514d429b2d905c, type: 3}
+    itemLongDescription: A blue table that is hard to be broken.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1080
+    itemType: 10
+    itemDescription: Brown Table
+    itemSprite: {fileID: 21300000, guid: 4fa4e0a476af3d949904a64c5d025c8f, type: 3}
+    itemLongDescription: A table with a brown color and very handy.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1081
+    itemType: 10
+    itemDescription: Green Table
+    itemSprite: {fileID: 21300000, guid: d696b51e65cb181439b53ad263deacc0, type: 3}
+    itemLongDescription: A green table brings up the atmosphere of the nature.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1082
+    itemType: 10
+    itemDescription: Leather Table
+    itemSprite: {fileID: 21300000, guid: e2fb63791a32d964bbdb6056a65ec99e, type: 3}
+    itemLongDescription: A table made of leather, it is soft and cozy.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1083
+    itemType: 10
+    itemDescription: Light Blue Table
+    itemSprite: {fileID: 21300000, guid: 3411ff2385ff26a45b6e67bd6648566f, type: 3}
+    itemLongDescription: A nice looking light blue table that takes up quite a space.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1084
+    itemType: 10
+    itemDescription: Light Purple Table
+    itemSprite: {fileID: 21300000, guid: 36298b865a1daf145a167b46f9b62d5b, type: 3}
+    itemLongDescription: A table with a space color, it is big but beautiful.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1085
+    itemType: 10
+    itemDescription: Pink Table
+    itemSprite: {fileID: 21300000, guid: 8aa4b0fd9236b004fab7bb68f668c216, type: 3}
+    itemLongDescription: A table that that can turn its place to be pinky.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1086
+    itemType: 10
+    itemDescription: Red Table
+    itemSprite: {fileID: 21300000, guid: 90edcad8612522d4dacb273a6f998849, type: 3}
+    itemLongDescription: A luxury and attractive table.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1087
+    itemType: 10
+    itemDescription: Woodie Table
+    itemSprite: {fileID: 21300000, guid: f6b14b7bce5656d4baf8979d8f12b0cd, type: 3}
+    itemLongDescription: A table that has the color of what it is made, wood.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1088
+    itemType: 10
+    itemDescription: Yellow Table
+    itemSprite: {fileID: 21300000, guid: a3b897392dbd2be428da9f07dc4b859a, type: 3}
+    itemLongDescription: A classical color table, it takes a lot of space.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1089
+    itemType: 10
+    itemDescription: E-Fence
+    itemSprite: {fileID: 21300000, guid: de65971125fb19f42a1362ed0b431b9a, type: 3}
+    itemLongDescription: An electrical fence that blocks the way.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1090
+    itemType: 10
+    itemDescription: Round Black Table
+    itemSprite: {fileID: 21300000, guid: 5295efadfab0d3e4996a4d90fae7ccc1, type: 3}
+    itemLongDescription: A round black table that doesn't take much space.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1091
+    itemType: 10
+    itemDescription: Round Blue Table
+    itemSprite: {fileID: 21300000, guid: 37283f5f337ad33468d86536a5d959f3, type: 3}
+    itemLongDescription: A blue table with no corners, it is round.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1092
+    itemType: 10
+    itemDescription: Round Brown Table
+    itemSprite: {fileID: 21300000, guid: c3668ea730497f44e9367834bc782c8f, type: 3}
+    itemLongDescription: A round table with a classic brown color.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1093
+    itemType: 10
+    itemDescription: Round Green Table
+    itemSprite: {fileID: 21300000, guid: 3de07ef92c1e0ce4cacd90b80d0c6245, type: 3}
+    itemLongDescription: 'A round table with the color of the nature. '
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1094
+    itemType: 10
+    itemDescription: Round Leather Table
+    itemSprite: {fileID: 21300000, guid: 87065c96122522f4da1a8f4ab31e0230, type: 3}
+    itemLongDescription: 'A round table made from leather. '
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1095
+    itemType: 10
+    itemDescription: Round Light Blue Table
+    itemSprite: {fileID: 21300000, guid: 21ccb55997400a6478d2c5d03e55590f, type: 3}
+    itemLongDescription: A round table that is light blue.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1096
+    itemType: 10
+    itemDescription: Round Light Purple Table
+    itemSprite: {fileID: 21300000, guid: 1d37b31b9a3091343bdb842b082a196c, type: 3}
+    itemLongDescription: A round light purple table.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1097
+    itemType: 10
+    itemDescription: Round Pink Table
+    itemSprite: {fileID: 21300000, guid: 25409e4a4649ac844843e48d304884b8, type: 3}
+    itemLongDescription: A cute pinky round table.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1098
+    itemType: 10
+    itemDescription: Round Red Table
+    itemSprite: {fileID: 21300000, guid: c5e4d52d8d9dc7040a0c52c937b73891, type: 3}
+    itemLongDescription: An attractive red round table.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1099
+    itemType: 10
+    itemDescription: Round White Table
+    itemSprite: {fileID: 21300000, guid: dcfecc4af495eb9439875af969a03165, type: 3}
+    itemLongDescription: A laboratory color round table.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1100
+    itemType: 10
+    itemDescription: Round Woodie Table
+    itemSprite: {fileID: 21300000, guid: a1abc27b82faa904ca68eea956a67604, type: 3}
+    itemLongDescription: A round table with a looking of wood.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1101
+    itemType: 10
+    itemDescription: Round Yellow Table
+    itemSprite: {fileID: 21300000, guid: bcb77edc2b4885d449535c8ae0dd455d, type: 3}
+    itemLongDescription: A round table that is yellow.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1102
+    itemType: 10
+    itemDescription: Black Closet
+    itemSprite: {fileID: 21300000, guid: a91c281d267290a448389a7642a327bd, type: 3}
+    itemLongDescription: A closet that is black.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1103
+    itemType: 10
+    itemDescription: Blue Closet
+    itemSprite: {fileID: 21300000, guid: f8f960f39ff09ca4193c0153861d38bf, type: 3}
+    itemLongDescription: A closet that is blue.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1104
+    itemType: 10
+    itemDescription: Brown Closet
+    itemSprite: {fileID: 21300000, guid: edd5960d59a259e49a6b4b74e9717000, type: 3}
+    itemLongDescription: A closet that is brown.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1105
+    itemType: 10
+    itemDescription: Green Closet
+    itemSprite: {fileID: 21300000, guid: 7b807c05d506d1b43beb6ed0d1542a3f, type: 3}
+    itemLongDescription: A closet that is green.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1106
+    itemType: 10
+    itemDescription: Leather Closet
+    itemSprite: {fileID: 21300000, guid: 47b918accb0c92747a8a0e1ace75078c, type: 3}
+    itemLongDescription: A closet that is made from leather.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1107
+    itemType: 10
+    itemDescription: Light Blue Closet
+    itemSprite: {fileID: 21300000, guid: 2c54f534c3b5f7b448a2cb164344ecd8, type: 3}
+    itemLongDescription: A closet that is light blue.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1108
+    itemType: 10
+    itemDescription: Light Purple Closet
+    itemSprite: {fileID: 21300000, guid: f2716c4d789368b4d9fa612d98ffe9bc, type: 3}
+    itemLongDescription: A closet that is light purple.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1109
+    itemType: 10
+    itemDescription: Pink Closet
+    itemSprite: {fileID: 21300000, guid: ab4c18f4c6704e1498683847db3c6563, type: 3}
+    itemLongDescription: A closet that is pink.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1110
+    itemType: 10
+    itemDescription: Red Closet
+    itemSprite: {fileID: 21300000, guid: 428a9f8f0af65714a853a711db023c0e, type: 3}
+    itemLongDescription: A closet that is red.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1111
+    itemType: 10
+    itemDescription: White Closet
+    itemSprite: {fileID: 21300000, guid: 05794adfb54e2e24a9337fd619201b40, type: 3}
+    itemLongDescription: A closet that is white.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1112
+    itemType: 10
+    itemDescription: Woodie Closet
+    itemSprite: {fileID: 21300000, guid: 83d0ebf3dc6686a438045ce89d7ef278, type: 3}
+    itemLongDescription: A closet that is woodie.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0
+  - itemCode: 1113
+    itemType: 10
+    itemDescription: Yellow Closet
+    itemSprite: {fileID: 21300000, guid: f3512daab07fa4e4da74232823336b4c, type: 3}
+    itemLongDescription: A closet that is woodie.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    needSpaceX: 0
+    needSpaceY: 0

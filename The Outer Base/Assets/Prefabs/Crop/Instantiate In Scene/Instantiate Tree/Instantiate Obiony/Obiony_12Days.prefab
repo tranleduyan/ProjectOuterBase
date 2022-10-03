@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1566020015742245287
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7153636111420709793, guid: c8557272eee79894991a6b7cd256ba26, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7153636111420709793, guid: c8557272eee79894991a6b7cd256ba26, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7153636111420709793, guid: c8557272eee79894991a6b7cd256ba26, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7153636111420709793, guid: c8557272eee79894991a6b7cd256ba26, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7153636111420709793, guid: c8557272eee79894991a6b7cd256ba26, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7153636111420709793, guid: c8557272eee79894991a6b7cd256ba26, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7153636111420709793, guid: c8557272eee79894991a6b7cd256ba26, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7153636111420709793, guid: c8557272eee79894991a6b7cd256ba26, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7153636111420709793, guid: c8557272eee79894991a6b7cd256ba26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7153636111420709793, guid: c8557272eee79894991a6b7cd256ba26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7153636111420709793, guid: c8557272eee79894991a6b7cd256ba26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7153636111420709794, guid: c8557272eee79894991a6b7cd256ba26, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1164663537, guid: 89844815d214db84880d1e7bf2da4c15, type: 3}
+    - target: {fileID: 7153636111420709798, guid: c8557272eee79894991a6b7cd256ba26, type: 3}
+      propertyPath: m_Name
+      value: Obiony_12Days
+      objectReference: {fileID: 0}
+    - target: {fileID: 7153636111420709799, guid: c8557272eee79894991a6b7cd256ba26, type: 3}
+      propertyPath: growthDays
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c8557272eee79894991a6b7cd256ba26, type: 3}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/PreLoadScene.unity
+    guid: 571b74989cfdb88458347befee575a8d
+  - enabled: 1
+    path: Assets/Scenes/HomeHouse.unity
+    guid: c0176375efe51f448bbee5dfc8944d2c
+  - enabled: 1
+    path: Assets/Scenes/HomeLand.unity
+    guid: c96764667d5645b49867f9fdeff682dc
+  - enabled: 1
+    path: Assets/Scenes/AuraCity.unity
+    guid: 0c51cc9731cfa414eb9767ba455f09ab
+  - enabled: 1
+    path: Assets/Scenes/GonasTown.unity
+    guid: 109d35aaa5c2aed42af03902d4faeb19
+  - enabled: 1
+    path: Assets/Scenes/KhakanyCity.unity
+    guid: 210923380e7a4d148ba44192ad533cb4
+  - enabled: 1
+    path: Assets/Scenes/GobbaFamilyHouseGroundFloor.unity
+    guid: 46b825fce3eb0144f9efb36d4c98fe6f
+  - enabled: 1
+    path: Assets/Scenes/GobbaFamilyHouseCandyStoreBasement.unity
+    guid: cf25b500ea79023409708f1344bd3f3f
+  m_configObjects: {}
