@@ -28,7 +28,7 @@ The game demo build is available at: https://leduyantran.itch.io/project-outer-b
 2. Run the .exe type file to play test the game.
 3. Press ESC key to open the Pause Menu and quit the game.
 # Instructions:
-Player Movements: W, A, S, D keys or Up, Down, Right, Left keys.
-Player Interactions: Left click to chop, break, place, harvest, select prompts. Space to interact with objects such as beds. \n
-Game Dev Control: T to advance time, and G to skip day (sleep by interacting with bed can also skip day and save the game automatically). \n
-Save/Load/Quit/Inventory: ESC key to open inventory tab or game tab that can choose between Save, Load, and Quit functions.
+- Player Movements: W, A, S, D keys or Up, Down, Right, Left keys.
+- Player Interactions: Left click to chop, break, place, harvest, select prompts. Space to interact with objects such as beds.
+- Game Dev Control: T to advance time, and G to skip day (sleep by interacting with bed can also skip day and save the game automatically). 
+- Save/Load/Quit/Inventory: ESC key to open inventory tab or game tab that can choose between Save, Load, and Quit functions.
