@@ -16,3 +16,7 @@ I used Aseprite to design graphics, visuals, and interfaces for the game then im
 3. Item Description/ Dragging: Hover over the item will pop up a short item description about are the items duties, items types, and items name. Items can be dragged or dropped through the use of Unity's IDragHandler, IBeginDragHandler, IEndDragHandler, IPointerEnterHandler, and more.
 4. Pause Menu: A menu show selections of game actions (e.g. Save/Load/Quit/Ordering Inventory Items). There will be buttons to be selected, and will perform each actions by calling methods according to appropriate actions.
 # Other Features:
+1. Save/Load: The system is implemented using interface class containing all necessary methods for saving and loading. Every objects, scripts, or components that are to be saved and loaded (e.g. inventory, NPCs/player's position, scenes, etc.) have to inherit the class. The saved objects are also to be generated with different uniques ID and through those IDs to retrieve the data to be loaded again. 
+2. Quit: Simply quit the application without any errors.
+# Installations:
+The game demo build is available at: https://leduyantran.itch.io/project-outer-base-in-progress.
