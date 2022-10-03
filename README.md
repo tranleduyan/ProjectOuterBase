@@ -3,7 +3,7 @@
 # About
 A 2D sci-fi top down pixel game built on a self-designed planet renovation story line in which humanity will eventually fly to another planet for life after the Earth's destruction. Upon landing this liveable planet - the Oatis, they met another alien civilization living here. Even though it is a planet with civilization, however, the life quality here and the infrastructure of the cities here has not advanced to high-level technology as humanity. In order to stay alive, humanity had decided to live  and grow with the Oatisians, help them achieve higher life quality. The player will be part of the community that helps the Oatisian rebuild and improve the planet, farming, building business, amusement centers, or renovating and rebuilding cities, exporing new areas and adventure quests.
 # Social Media
-Showcases and work progress contents are posted on Instagram: https://www.instagram.com/8thbitboi/ 
+Showcases and work progress contents are posted on Instagram, please check out at: https://www.instagram.com/8thbitboi/ 
 # Mechanics Features:
 I mostly used arrays to store grid information and Unity Game Engine built-in Scriptable Objects to programming these features. More about Scriptable Objects: https://docs.unity3d.com/Manual/class-ScriptableObject.html. For the game complexity, and progressing, I used Singleton techniques. These are grid-based implementations: 
 1. Grid-based Cursor Visuals: The cursor will get the position of the grid and return whether or not the grid is suitable to perform the actions that player is requesting (e.g. Drop Items/ Chop/ Break/ Hoe/ Water/ Plant/ Place Item). If the grid/position can be performed such actions return in green cursor interface, otherwise it is red cursor interface.
@@ -25,3 +25,8 @@ The game demo build is available at: https://leduyantran.itch.io/project-outer-b
 1. Download the zip file.
 2. Run the .exe type file to play test the game.
 3. Press ESC key to open the Pause Menu and quit the game.
+# Instructions:
+Player Movements: W, A, S, D keys or Up, Down, Right, Left keys.
+Player Interactions: Left click to chop, break, place, harvest, select prompts. Space to interact with objects such as beds.
+Game Dev Control: T to advance time, and G to skip day (sleep by interacting with bed can also skip day and save the game automatically).
+Save/Load/Quit/Inventory: ESC key to open inventory tab or game tab that can choose between Save, Load, and Quit functions.
