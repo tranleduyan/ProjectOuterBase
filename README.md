@@ -8,6 +8,7 @@ Showcases and work progress contents are posted on Instagram, please check out a
 # Softwares:
 Aseprite, Unity Game Engine, Visual Studio 2022
 # Mechanics Features:
+![Screenshot](https://user-images.githubusercontent.com/114903308/193633755-20645205-b804-4338-b11e-db4799878335.png)
 I mostly used arrays to store grid information and Unity Game Engine built-in Scriptable Objects to programming these features. More about Scriptable Objects: https://docs.unity3d.com/Manual/class-ScriptableObject.html. For the game complexity, and progressing, I used Singleton techniques. These are grid-based implementations: 
 1. Grid-based Cursor Visuals: The cursor will get the position of the grid and return whether or not the grid is suitable to perform the actions that player is requesting (e.g. Drop Items/ Chop/ Break/ Hoe/ Water/ Plant/ Place Item). If the grid/position can be performed such actions return in green cursor interface, otherwise it is red cursor interface.
 2. Farming: Player can chop down the trees gaining different amount of woods, and seeds, or break different types of rocks giving random amount of stones. Player can also dig/hoe the ground preparing for planting trees, bushes using seeds and watering them. Then whenever it is time for the fruit to be fully grown, they can be harvested.
