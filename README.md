@@ -1,5 +1,6 @@
 # Project Outer Base - 2D Sci-fi RPG
 # Author/Developer: Le Duy An Tran
+![SplashScreen](https://user-images.githubusercontent.com/114903308/193628581-0bed0f1c-fe92-492d-a4f1-0d2d48c0d9e6.png)
 # About:
 A 2D sci-fi top down pixel game built on a self-designed planet renovation story line in which humanity will eventually fly to another planet for life after the Earth's destruction. Upon landing this liveable planet - the Oatis, they met another alien civilization living here. Even though it is a planet with civilization, however, the life quality here and the infrastructure of the cities here has not advanced to high-level technology as humanity. In order to stay alive, humanity had decided to live  and grow with the Oatisians, help them achieve higher life quality. The player will be part of the community that helps the Oatisian rebuild and improve the planet, farming, building business, amusement centers, or renovating and rebuilding cities, exporing new areas and adventure quests.
 # Social Media:
@@ -14,6 +15,7 @@ I mostly used arrays to store grid information and Unity Game Engine built-in Sc
 4. Dropping Items: Items will be stored as having several types - starting items, droppable items, placeable items, etc. Dropping system is built based on the grid information, getting information from the grid whether or not the grid is of type droppable. 
 5. NPCs Path Finding: The NPCs' path finding is built based on the grid and calculation of AStar Algorithm. AStar algorithm is used to search and find the shortest path with a lowest cost optimizing the performance. In the implementations, based on the grid information (returns in NPC obstacles or not), the path will be calculated between the high and low cost distance grid. 
 # GUI Features:
+![3](https://user-images.githubusercontent.com/114903308/193628818-76a9429f-1e80-427b-9658-b9776bd8a1e1.png)
 I used Aseprite to design graphics, visuals, and interfaces for the game then imported the components to Unity Game Engine for implementations. The techniques I used are enums, class references, and events caller. There are different user-interface features to show essential game information:
 1. Game Time Clock and Date, Weather: The interface will show what is the current game time, dates, and weather to the player. Game time is designed based on ticks per second, and called by events. Time will be paused between scene transitions, saving, or loading.
 2. Inventory Bar: Display a summary of the player's first 12 items in the inventory. It is implemented to be flexible in positioning - based on the player position, whether it is overlapping the player or not (player is going to the bottom edge of the screen where the inventory is located), it will position to the upper screen, improve on player visibility and experience. A small visual text at the corner of inventory bar will show the amount of the item. 
