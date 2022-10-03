@@ -20,3 +20,6 @@ I used Aseprite to design graphics, visuals, and interfaces for the game then im
 2. Quit: Simply quit the application without any errors.
 # Installations:
 The game demo build is available at: https://leduyantran.itch.io/project-outer-base-in-progress.
+1. Download the zip file.
+2. Run the .exe type file to play test the game.
+3. Press ESC key to open the Pause Menu and quit the game.
